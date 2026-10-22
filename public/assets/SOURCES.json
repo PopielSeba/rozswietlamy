@@ -1,0 +1,286 @@
+{
+  "note": "Original official REKORD / pozyczmnie.pl imagery for Rozswietlamy. Responsive derivatives preserve full photographic frames and lamp heads. No generated photography.",
+  "reviewedAt": "2026-10-22T09:54:31.726018+00:00",
+  "sourcePages": [
+    "https://www.pozyczmnie.pl/maszty-oswietleniowe",
+    "https://halenamiotowe.com.pl/nasze-produkty/zaplecze-techniczne/"
+  ],
+  "referenceDocuments": [
+    "https://halenamiotowe.com.pl/wp-content/uploads/2025/01/20_08_Produkty_Zaplecze-techniczne-Maszty-oswietleniowe.pdf",
+    "https://halenamiotowe.com.pl/wp-content/uploads/2025/01/20_09_Produkty_Zaplecze-techniczne-Wieza-oswietleniowa-V20-PRO.pdf"
+  ],
+  "assets": [
+    {
+      "file": "light-hero.webp",
+      "source": "https://halenamiotowe.com.pl/wp-content/uploads/2025/01/20_08_Produkty_Zaplecze-techniczne-Maszty-oswietleniowe-scaled.jpg",
+      "sourcePage": "https://halenamiotowe.com.pl/nasze-produkty/zaplecze-techniczne/",
+      "sourceSha256": "f9c513bb0200a24ac2ff2f322aea22714ce293688f0235bada1a70d9f7332a91",
+      "sourceWidth": 2560,
+      "sourceHeight": 1707,
+      "width": 1600,
+      "height": 1067,
+      "bytes": 218958,
+      "format": "WEBP",
+      "alt": "Flota masztów oświetleniowych REKORD z rozłożonym masztem LED",
+      "usageNotes": "Rzeczywista mieszana flota w terenie. Jeden maszt całkowicie wysunięty. Fotografia dzienna; nie przedstawia potwierdzonej nocnej realizacji ani pracy przy konkretnym wydarzeniu. Nie przypisywać wszystkich urządzeń do jednej marki lub modelu.",
+      "transformations": "Technical resize to 1600x1067 and WebP quality 76. Full original frame retained; no crop, semantic edits, or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "light-hero-mobile.webp",
+      "source": "https://halenamiotowe.com.pl/wp-content/uploads/2025/01/20_08_Produkty_Zaplecze-techniczne-Maszty-oswietleniowe-scaled.jpg",
+      "sourcePage": "https://halenamiotowe.com.pl/nasze-produkty/zaplecze-techniczne/",
+      "sourceSha256": "f9c513bb0200a24ac2ff2f322aea22714ce293688f0235bada1a70d9f7332a91",
+      "sourceWidth": 2560,
+      "sourceHeight": 1707,
+      "width": 800,
+      "height": 533,
+      "bytes": 67112,
+      "format": "WEBP",
+      "alt": "Flota masztów oświetleniowych REKORD z rozłożonym masztem LED",
+      "usageNotes": "Rzeczywista mieszana flota w terenie. Jeden maszt całkowicie wysunięty. Fotografia dzienna; nie przedstawia potwierdzonej nocnej realizacji ani pracy przy konkretnym wydarzeniu. Nie przypisywać wszystkich urządzeń do jednej marki lub modelu.",
+      "transformations": "Technical resize to 800x533 and WebP quality 76. Full original frame retained; no crop, semantic edits, or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "atlas-copco-hilight.webp",
+      "source": "https://www.pozyczmnie.pl/assets/light-tower-atlascopco-CpmRZ4jv.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/maszty-oswietleniowe",
+      "sourceSha256": "c415b5931951f42fcb450b45f9df83a3cd8f4daf1372c7e52a1f846f25c19bba",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 1600,
+      "height": 1200,
+      "bytes": 232868,
+      "format": "WEBP",
+      "alt": "Flota masztów Atlas Copco HiLight na placu REKORD",
+      "usageNotes": "Zdjęcie przypisane na oficjalnej stronie do serii Atlas Copco HiLight. Katalog dotyczy serii, bez obietnicy jednego konkretnego modelu. Wykorzystać pełny kadr 4:3.",
+      "transformations": "Original source WebP retained byte-for-byte; no changes.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "atlas-copco-hilight-640.webp",
+      "source": "https://www.pozyczmnie.pl/assets/light-tower-atlascopco-CpmRZ4jv.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/maszty-oswietleniowe",
+      "sourceSha256": "c415b5931951f42fcb450b45f9df83a3cd8f4daf1372c7e52a1f846f25c19bba",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 640,
+      "height": 480,
+      "bytes": 53938,
+      "format": "WEBP",
+      "alt": "Flota masztów Atlas Copco HiLight na placu REKORD",
+      "usageNotes": "Zdjęcie przypisane na oficjalnej stronie do serii Atlas Copco HiLight. Katalog dotyczy serii, bez obietnicy jednego konkretnego modelu. Wykorzystać pełny kadr 4:3.",
+      "transformations": "Technical resize to 640x480 and WebP quality 80. Full original frame retained; no crop, semantic edits, or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "atlas-copco-hilight-960.webp",
+      "source": "https://www.pozyczmnie.pl/assets/light-tower-atlascopco-CpmRZ4jv.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/maszty-oswietleniowe",
+      "sourceSha256": "c415b5931951f42fcb450b45f9df83a3cd8f4daf1372c7e52a1f846f25c19bba",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 960,
+      "height": 720,
+      "bytes": 110734,
+      "format": "WEBP",
+      "alt": "Flota masztów Atlas Copco HiLight na placu REKORD",
+      "usageNotes": "Zdjęcie przypisane na oficjalnej stronie do serii Atlas Copco HiLight. Katalog dotyczy serii, bez obietnicy jednego konkretnego modelu. Wykorzystać pełny kadr 4:3.",
+      "transformations": "Technical resize to 960x720 and WebP quality 80. Full original frame retained; no crop, semantic edits, or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "generac-v20-pro.webp",
+      "source": "https://halenamiotowe.com.pl/wp-content/uploads/2025/01/20_09_Produkty_Zaplecze-techniczne-Wieza-oswietleniowa-V20-PRO-scaled.jpg",
+      "sourcePage": "https://halenamiotowe.com.pl/nasze-produkty/zaplecze-techniczne/",
+      "sourceSha256": "93d6a5f62753eb8537c6128bf686a322d0b7a2bf1d840999067f2b1780f901c2",
+      "sourceWidth": 1606,
+      "sourceHeight": 2560,
+      "width": 1200,
+      "height": 1913,
+      "bytes": 131230,
+      "format": "WEBP",
+      "alt": "Wieża oświetleniowa Generac V20 PRO z rozłożonym masztem i zestawem paneli słonecznych",
+      "usageNotes": "Zdjęcie produktowe podpisane V20 PRO na oficjalnej stronie i karcie REKORD. Pokazuje konfigurację z panelami słonecznymi; dostępność i zawartość konfiguracji wymagają doboru oferty. Pionowy kadr zachować w całości przez object-fit: contain.",
+      "transformations": "Technical resize to 1200x1913 and WebP quality 82. Full original frame retained; no crop, semantic edits, or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "generac-v20-pro-640.webp",
+      "source": "https://halenamiotowe.com.pl/wp-content/uploads/2025/01/20_09_Produkty_Zaplecze-techniczne-Wieza-oswietleniowa-V20-PRO-scaled.jpg",
+      "sourcePage": "https://halenamiotowe.com.pl/nasze-produkty/zaplecze-techniczne/",
+      "sourceSha256": "93d6a5f62753eb8537c6128bf686a322d0b7a2bf1d840999067f2b1780f901c2",
+      "sourceWidth": 1606,
+      "sourceHeight": 2560,
+      "width": 640,
+      "height": 1020,
+      "bytes": 50142,
+      "format": "WEBP",
+      "alt": "Wieża oświetleniowa Generac V20 PRO z rozłożonym masztem i zestawem paneli słonecznych",
+      "usageNotes": "Zdjęcie produktowe podpisane V20 PRO na oficjalnej stronie i karcie REKORD. Pokazuje konfigurację z panelami słonecznymi; dostępność i zawartość konfiguracji wymagają doboru oferty. Pionowy kadr zachować w całości przez object-fit: contain.",
+      "transformations": "Technical resize to 640x1020 and WebP quality 82. Full original frame retained; no crop, semantic edits, or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "generac-v20-pro-960.webp",
+      "source": "https://halenamiotowe.com.pl/wp-content/uploads/2025/01/20_09_Produkty_Zaplecze-techniczne-Wieza-oswietleniowa-V20-PRO-scaled.jpg",
+      "sourcePage": "https://halenamiotowe.com.pl/nasze-produkty/zaplecze-techniczne/",
+      "sourceSha256": "93d6a5f62753eb8537c6128bf686a322d0b7a2bf1d840999067f2b1780f901c2",
+      "sourceWidth": 1606,
+      "sourceHeight": 2560,
+      "width": 960,
+      "height": 1530,
+      "bytes": 94492,
+      "format": "WEBP",
+      "alt": "Wieża oświetleniowa Generac V20 PRO z rozłożonym masztem i zestawem paneli słonecznych",
+      "usageNotes": "Zdjęcie produktowe podpisane V20 PRO na oficjalnej stronie i karcie REKORD. Pokazuje konfigurację z panelami słonecznymi; dostępność i zawartość konfiguracji wymagają doboru oferty. Pionowy kadr zachować w całości przez object-fit: contain.",
+      "transformations": "Technical resize to 960x1530 and WebP quality 82. Full original frame retained; no crop, semantic edits, or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "light-fleet.webp",
+      "source": "https://www.pozyczmnie.pl/assets/light-tower-generac-d4H6oaHy.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/maszty-oswietleniowe",
+      "sourceSha256": "7757d2d426b817728106523398eeb84509c9640e4674c4902f560da7901495d7",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 1600,
+      "height": 1200,
+      "bytes": 237050,
+      "format": "WEBP",
+      "alt": "Maszty oświetleniowe Generac na placu REKORD",
+      "usageNotes": "Rzeczywista flota marki Generac ze złożonymi masztami na placu. Nie nazywać zdjęciem pracującej instalacji ani nie przypisywać wszystkich egzemplarzy do wariantu V20 PRO.",
+      "transformations": "Original source WebP retained byte-for-byte; no changes.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "light-fleet-640.webp",
+      "source": "https://www.pozyczmnie.pl/assets/light-tower-generac-d4H6oaHy.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/maszty-oswietleniowe",
+      "sourceSha256": "7757d2d426b817728106523398eeb84509c9640e4674c4902f560da7901495d7",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 640,
+      "height": 480,
+      "bytes": 52976,
+      "format": "WEBP",
+      "alt": "Maszty oświetleniowe Generac na placu REKORD",
+      "usageNotes": "Rzeczywista flota marki Generac ze złożonymi masztami na placu. Nie nazywać zdjęciem pracującej instalacji ani nie przypisywać wszystkich egzemplarzy do wariantu V20 PRO.",
+      "transformations": "Technical resize to 640x480 and WebP quality 80. Full original frame retained; no crop, semantic edits, or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "light-fleet-960.webp",
+      "source": "https://www.pozyczmnie.pl/assets/light-tower-generac-d4H6oaHy.webp",
+      "sourcePage": "https://www.pozyczmnie.pl/maszty-oswietleniowe",
+      "sourceSha256": "7757d2d426b817728106523398eeb84509c9640e4674c4902f560da7901495d7",
+      "sourceWidth": 1600,
+      "sourceHeight": 1200,
+      "width": 960,
+      "height": 720,
+      "bytes": 108230,
+      "format": "WEBP",
+      "alt": "Maszty oświetleniowe Generac na placu REKORD",
+      "usageNotes": "Rzeczywista flota marki Generac ze złożonymi masztami na placu. Nie nazywać zdjęciem pracującej instalacji ani nie przypisywać wszystkich egzemplarzy do wariantu V20 PRO.",
+      "transformations": "Technical resize to 960x720 and WebP quality 80. Full original frame retained; no crop, semantic edits, or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "light-og.jpg",
+      "source": "https://halenamiotowe.com.pl/wp-content/uploads/2025/01/20_08_Produkty_Zaplecze-techniczne-Maszty-oswietleniowe-scaled.jpg",
+      "sourcePage": "https://halenamiotowe.com.pl/nasze-produkty/zaplecze-techniczne/",
+      "sourceSha256": "f9c513bb0200a24ac2ff2f322aea22714ce293688f0235bada1a70d9f7332a91",
+      "sourceWidth": 2560,
+      "sourceHeight": 1707,
+      "width": 1200,
+      "height": 630,
+      "bytes": 177156,
+      "format": "JPEG",
+      "alt": "Flota masztów oświetleniowych REKORD z rozłożonym masztem LED",
+      "usageNotes": "Rzeczywista mieszana flota w terenie. Jeden maszt całkowicie wysunięty. Fotografia dzienna; nie przedstawia potwierdzonej nocnej realizacji ani pracy przy konkretnym wydarzeniu. Nie przypisywać wszystkich urządzeń do jednej marki lub modelu.",
+      "transformations": "Full photo resized to 945x630 and centered on a 1200x630 dark canvas for Open Graph. Only technical padding and encoding; no crop, text overlay, scene alteration, or generation.",
+      "rights": "Official REKORD / pozyczmnie.pl promotional photograph used for the owner's requested business website; original copyright retained."
+    },
+    {
+      "file": "rekord-logo.png",
+      "source": "https://www.pozyczmnie.pl/assets/rekord-logo-Dgm1kGcV.png",
+      "bytes": 27528,
+      "contentType": "image/png",
+      "width": 400,
+      "height": 147,
+      "format": "PNG"
+    }
+  ],
+  "fonts": [
+    {
+      "file": "barlow-condensed-600-latin-ext.woff2",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3jWuZEC.woff2",
+      "family": "Barlow Condensed",
+      "weight": "600",
+      "style": "normal",
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "bytes": 14516
+    },
+    {
+      "file": "barlow-condensed-600-latin.woff2",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873z3bWuQ.woff2",
+      "family": "Barlow Condensed",
+      "weight": "600",
+      "style": "normal",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "bytes": 22308
+    },
+    {
+      "file": "barlow-condensed-700-latin-ext.woff2",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3jWuZEC.woff2",
+      "family": "Barlow Condensed",
+      "weight": "700",
+      "style": "normal",
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "bytes": 14640
+    },
+    {
+      "file": "barlow-condensed-700-latin.woff2",
+      "source": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "family": "Barlow Condensed",
+      "weight": "700",
+      "style": "normal",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "bytes": 22444
+    },
+    {
+      "file": "manrope-400-800-latin-ext.woff2",
+      "source": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggmxSuXd.woff2",
+      "family": "Manrope",
+      "weight": "400 800",
+      "style": "normal",
+      "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF",
+      "bytes": 15120
+    },
+    {
+      "file": "manrope-400-800-latin.woff2",
+      "source": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+      "family": "Manrope",
+      "weight": "400 800",
+      "style": "normal",
+      "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "bytes": 24836
+    }
+  ],
+  "licenses": [
+    {
+      "file": "manrope-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt"
+    },
+    {
+      "file": "barlowcondensed-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt"
+    }
+  ],
+  "review": {
+    "scope": "Photographs inspected individually. Source product associations checked against official captions. All website derivatives use full-frame resizing.",
+    "excluded": "Original pozyczmnie hero has its tallest lamp clipped at the top edge and was replaced by the official catalogue fleet image. Scenario cards were not used as evidence of real implementations.",
+    "limitations": "No verified night-time project photograph found in the supplied official source pages; fleet images must be labeled as fleet, not working installations."
+  }
+}
