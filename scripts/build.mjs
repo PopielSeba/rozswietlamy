@@ -13,6 +13,12 @@ if (!['https:', 'http:'].includes(parsedUrl.protocol)) throw new Error('SITE_URL
 const siteUrl = parsedUrl.href.replace(/\/+$/, '');
 const homePage = pages.find(page => page.path === '/');
 const siteName = homePage?.title?.split('|').at(-1)?.trim() || new URL(siteUrl).hostname;
+const aiFacts = [
+  "Oferta obejmuje mobilne maszty oświetleniowe Atlas Copco HiLight oraz Generac V20 PRO.",
+  "Oferta koncentruje się na mobilnym oświetleniu LED do budów, placów i wydarzeń.",
+  "REKORD przygotowuje oferty wynajmu oraz indywidualne zapytania o zakup masztów oświetleniowych.",
+  "Liczbę i rozmieszczenie masztów dobiera się do planu terenu, stref pracy, przeszkód i warunków zasilania.",
+];
 const htmlToText = html => html
   .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
   .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ')
@@ -53,6 +59,9 @@ const llmsIndex = [
   `# ${siteName}`,
   '',
   `> ${homePage?.description || 'Oficjalna strona oferty.'}`,
+  '',
+  '## Najważniejsze fakty',
+  ...aiFacts.map(fact => `- ${fact}`),
   '',
   '## Oficjalne strony',
   ...indexablePages.map(page => `- [${page.title}](${siteUrl}${page.path}): ${page.description}`),
