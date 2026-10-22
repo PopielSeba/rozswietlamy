@@ -138,7 +138,7 @@ function notFound() {
 }
 
 export const pages = [
-  { path: '/', active: 'home', title: 'Rozświetlamy — wynajem i sprzedaż masztów oświetleniowych', description: 'Mobilne maszty oświetleniowe do budów, imprez i placów. Atlas Copco HiLight i Generac V20 PRO — wynajem, zapytania o zakup, dobór oraz dostawa w Polsce i UE.', render: home },
+  { path: '/', active: 'home', title: 'Wynajem i sprzedaż masztów oświetleniowych | Rozświetlamy', description: 'Mobilne maszty oświetleniowe do budów, imprez i placów. Atlas Copco HiLight i Generac V20 PRO — wynajem, zapytania o zakup, dobór oraz dostawa w Polsce i UE.', render: home },
   ...['rental', 'sale'].map(type => ({ path: paths[type], active: type, title: servicePages[type].metaTitle, description: servicePages[type].metaDescription, crumbs: [{ name: servicePages[type].eyebrow, path: paths[type] }], render: () => service(type) })),
   { path: paths.catalog, active: 'catalog', title: 'Maszty oświetleniowe — Atlas Copco i Generac | Rozświetlamy', description: 'Poznaj serię masztów Atlas Copco HiLight oraz model Generac V20 PRO. Mobilne oświetlenie LED, zastosowania i dobór konfiguracji do terenu.', crumbs: [{ name: 'Maszty oświetleniowe', path: paths.catalog }], render: catalog },
   ...equipment.map(item => ({ path: productPath(item), active: 'product', product: item, title: `${item.name} — wynajem i zapytanie o zakup | Rozświetlamy`, description: `${item.name} — ${item.slug === 'atlas-copco-hilight' ? 'seria masztów oświetleniowych LED' : 'mobilny maszt oświetleniowy'}. Poznaj zastosowania i zapytaj o wynajem lub zakup z doborem konfiguracji.`, crumbs: [{ name: 'Maszty oświetleniowe', path: paths.catalog }, { name: item.name, path: productPath(item) }], render: () => product(item) })),
