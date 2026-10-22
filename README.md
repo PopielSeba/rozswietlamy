@@ -87,10 +87,37 @@ Link może wstępnie wybrać zakup i model, np. `/kontakt/?oferta=zakup&model=ge
 
 ## Publikacja
 
-**Status: w przygotowaniu.** Docelowy hosting to Vercel, projekt `rozswietlamy`, a domena to **rozswietlamy.pl**.
+**Status: opublikowano 22.10.2026.** Hosting: Vercel, projekt `rozswietlamy`, zespół **Sebastian's projects**. Domena **rozswietlamy.pl** jest dodana do produkcji i oczekuje na zmianę DNS w UT.
 
-Konfiguracja `vercel.json` wykonuje `npm run build && npm run check && npm test`, publikuje katalog `dist` i ustawia `trailingSlash: true`. Instalacja pakietów nie jest wykonywana.
+- Działająca strona: <https://rozswietlamy.vercel.app/>
+- Repozytorium: <https://github.com/PopielSeba/rozswietlamy>
+- Projekt: <https://vercel.com/sebastians-projects-e047c519/rozswietlamy>
+- Ustawienia domen: <https://vercel.com/sebastians-projects-e047c519/rozswietlamy/settings/domains>
 
-Adres repozytorium, potwierdzone wdrożenie i konkretne rekordy DNS należy uzupełnić po ich utworzeniu lub sprawdzeniu. Rekordy domeny w UT powinny odpowiadać wartościom wskazanym przez Vercel dla tego projektu; niniejszy plik nie podaje niezweryfikowanych adresów.
+Konfiguracja `vercel.json` wykonuje `npm run build && npm run check && npm test`, publikuje katalog `dist` i ustawia `trailingSlash: true`. Instalacja pakietów nie jest wykonywana. Nagłówki HTTP są skonfigurowane w `vercel.json`; plik `_headers` służy hostingom obsługującym ten format.
 
-Po połączeniu domeny należy sprawdzić HTTPS, wybrany wariant www, przekierowania, canonical oraz sitemapę.
+### Rekordy DNS w UT
+
+Wartości odczytane z ustawień domen tego projektu w Vercelu 22.10.2026:
+
+| Nazwa / host | Typ | Wartość |
+| --- | --- | --- |
+| `@` | `A` | `216.198.79.1` |
+| `www` | `CNAME` | `893686cade47c779.vercel-dns-017.com.` |
+
+Zmień istniejący rekord A domeny głównej wskazujący `54.38.201.206`. Dla `www` zastąp dotychczasowy rekord A rekordem CNAME z tabeli. Rekord A i CNAME nie powinny współistnieć pod nazwą `www`. TTL może pozostać domyślny, np. 3600 s.
+
+Zachowaj pozostałe rekordy, w szczególności MX `10 plhost.ut.pl.`, rekordy poczty i weryfikacji. Nie trzeba zmieniać serwerów nazw `ns1.ut.pl` i `ns2.ut.pl`.
+
+W Vercelu `rozswietlamy.pl` jest połączona z Production, a `www.rozswietlamy.pl` ma przekierowanie **308** na domenę główną. Status **Invalid Configuration** przed aktualizacją DNS jest oczekiwany. Po propagacji należy potwierdzić konfigurację, certyfikat HTTPS i przekierowanie www.
+
+### Weryfikacja publikacji
+
+- Lokalny build, kontrola 11 stron HTML, 11 bloków JSON-LD, 499 lokalnych referencji i sitemap — poprawne.
+- Testy logiki zapytania — poprawne.
+- Widok komputerowy i mobilny 375 px, menu, galeria, wybór modelu, zakup/wynajem i kopiowanie treści — sprawdzone w przeglądarce.
+- 10 publicznych podstron wdrożenia — HTTP 200, unikalne metadane i canonical dla `rozswietlamy.pl`.
+- Sitemap, robots.txt i zasoby — HTTP 200; nieistniejąca ścieżka — rzeczywiste HTTP 404.
+- Przekierowanie HTTP do HTTPS i uzupełnienie końcowego slasha — 308.
+
+Mapa witryny na docelowej domenie: `https://rozswietlamy.pl/sitemap.xml`. Po uruchomieniu własnej domeny można zgłosić ją w Google Search Console. Weryfikacja Search Console nie została skonfigurowana w ramach tego wdrożenia.
