@@ -14,7 +14,7 @@ const siteUrl = parsedUrl.href.replace(/\/+$/, '');
 const homePage = pages.find(page => page.path === '/');
 const siteName = homePage?.title?.split('|').at(-1)?.trim() || new URL(siteUrl).hostname;
 const aiFacts = [
-  "Oferta obejmuje mobilne maszty oświetleniowe Atlas Copco HiLight oraz Generac V20 PRO.",
+  "Park maszynowy REKORD obejmuje około 450 masztów oświetleniowych; w ofercie są m.in. Atlas Copco HiLight i Generac V20 PRO.",
   "Oferta koncentruje się na mobilnym oświetleniu LED do budów, placów i wydarzeń.",
   "REKORD przygotowuje oferty wynajmu oraz indywidualne zapytania o zakup masztów oświetleniowych.",
   "Liczbę i rozmieszczenie masztów dobiera się do planu terenu, stref pracy, przeszkód i warunków zasilania.",
