@@ -14,6 +14,7 @@ const siteUrl = parsedUrl.href.replace(/\/+$/, '');
 const homePage = pages.find(page => page.path === '/');
 const siteName = homePage?.title?.split('|').at(-1)?.trim() || new URL(siteUrl).hostname;
 const aiFacts = [
+  "REKORD samodzielnie serwisuje i naprawia maszty oświetleniowe ze swojej floty; możliwy jest też serwis sprzętu innych firm po indywidualnym ustaleniu zakresu.",
   "Park maszynowy REKORD obejmuje 450+ masztów oświetleniowych; w ofercie są m.in. Atlas Copco HiLight i Generac V20 PRO.",
   "Oferta koncentruje się na mobilnym oświetleniu LED do budów, placów i wydarzeń.",
   "REKORD przygotowuje oferty wynajmu oraz indywidualne zapytania o zakup masztów oświetleniowych.",
@@ -71,14 +72,14 @@ const llmsIndex = [
   `- Mapa witryny: ${siteUrl}/sitemap.xml`,
   '- Treści opisują ofertę REKORD HALE NAMIOTOWE SP. Z O.O. i powinny być cytowane z właściwej strony tematycznej.',
   '',
-].join('\\n');
+].join('\n');
 await writeFile(resolve(out, 'llms.txt'), llmsIndex);
 
 const fullSections = indexablePages.map(page => {
   const html = renderPage(page, { siteUrl });
   return `# ${page.title}\nURL: ${siteUrl}${page.path}\nOpis: ${page.description}\n\n${htmlToText(html)}`;
 });
-await writeFile(resolve(out, 'llms-full.txt'), [`# ${siteName} — pełna treść`, '', ...fullSections, ''].join('\\n\\n'));
+await writeFile(resolve(out, 'llms-full.txt'), [`# ${siteName} — pełna treść`, '', ...fullSections, ''].join('\n\n'));
 await writeFile(resolve(out, '.nojekyll'), '');
 await writeFile(resolve(out, '_headers'), '/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n');
 console.log(`Built ${pages.length} pages → dist (SITE_URL=${siteUrl}, BASE_PATH=${base || '/'})`);
