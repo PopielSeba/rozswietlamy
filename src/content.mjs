@@ -284,7 +284,7 @@ export const servicePages = {
   rental: {
     eyebrow: 'Wynajem masztów oświetleniowych',
     title: 'Wynajem masztów oświetleniowych LED',
-    metaTitle: 'Wynajem masztów oświetleniowych na budowę | Rozświetlamy',
+    metaTitle: 'Wynajem masztów oświetleniowych LED | Rozświetlamy',
     metaDescription: 'Wynajem masztów oświetleniowych LED na budowy, place i imprezy. Park REKORD: 450+ masztów. Dobór konfiguracji i dostawa w Polsce oraz UE.',
     intro: 'Wynajmij mobilne maszty oświetleniowe LED na plac budowy, parking lub wydarzenie. Park REKORD obejmuje 450+ masztów. Urządzenia Atlas Copco i Generac dobieramy do planu terenu, przeszkód, godzin pracy i dostępnego zasilania.',
     sections: [
