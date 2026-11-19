@@ -104,6 +104,10 @@ export const faq = [
     a: 'Koordynujemy transport, harmonogram dostawy i przygotowanie sprzętu do pracy w Polsce oraz Unii Europejskiej. Dostęp do terenu, miejsce rozładunku i zakres realizacji ustalamy przed zamówieniem.',
   },
   {
+    q: 'Czy można wynająć maszty oświetleniowe w Warszawie i na Mazowszu?',
+    a: 'Przyjmujemy zapytania o wynajem masztów oświetleniowych również dla realizacji w Warszawie i województwie mazowieckim. Podaj lokalizację, termin, czas użytkowania oraz wymagania dotyczące oświetlenia. Możliwość dostawy, dostępność sprzętu i koszt transportu potwierdzamy indywidualnie.',
+  },
+  {
     q: 'Ile kosztuje wynajem masztu oświetleniowego?',
     a: 'Cena zależy od sprzętu, liczby jednostek, okresu wynajmu, lokalizacji i zakresu dostawy. Podaj opis terenu, harmonogram oraz wymagania dotyczące zasilania. Na tej podstawie przygotujemy indywidualną wycenę.',
   },
